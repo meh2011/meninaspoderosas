@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body {
+   background-image: url(img/fundo.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+} 
+.container-fluid p-5 {
+    padding: 5px;
+}
+.titulo{
+    font-family: "Dancing Script", system-ui;
+
+    font-size: 85px;
+   color:#890196;;
+    text-shadow: 2px 2px 0px #0e010f;
+    text-align: center;
+}
+.sub{
+    font-family: "Dancing Script", system-ui;
+ color:#890196;;
+    text-shadow: 2px 2px 0px #0e010f;
+    font-size: 35px;
+    text-align: center;
+
+}
+.s{
+   
+    font-family: "Dancing Script", system-ui;
+   color: rgba(230, 129, 250, 0.692);
+    font-size: 85px;
+    padding: 6px;
+    color: #000000;
+   
+
+}
+.p{
+    font-family: "Dancing Script", system-ui;
+    color: rgba(230, 129, 250, 0.692);
+   color: #000000;
+   font-size: 35px;
+    padding: 6px;
+
+}
+.rodape{
+    width: 100%;
+    height: 50px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgba(245, 53, 203, 0.959);
+    color: #000000;
+   
+
+}
+.col-md-4{
+ border: 2px dotted #b802c9;
+ background-color: rgba(245, 53, 203, 0.616);
+ border-radius: 90px;
+ text-align: center;
+ padding: 15px;
+}
